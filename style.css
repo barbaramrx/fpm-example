@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+div {
+    display: block;
+}
+
+.iphone-calc {
+    background-color: black;
+    color: white;
+    width: 400px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.result-container {
+    text-align: right;
+    font-family: monospace;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.btn-container {
+    margin-left: 0.5%;
+}
+
+.btn-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5%;
+    align-content: stretch;
+}
+
+button {
+    font-size: 40px;
+    font-family: monospace;
+    background-color: #d8d9db;
+    color: black;
+    width: 24.5%;
+    height: 15%;
+    cursor: pointer;
+    border: none;
+    border-radius: 0;
+    height: 100px;
+}
+
+button:hover {
+    background-color: #eee;
+    transition-duration: 0.5s;
+}
+
+button:active {
+    background-color: #bbbcbe;
+}
+
+.orange-btn {
+    background-color: #df974c;
+    color: white;
+}
+
+.orange-btn:active {
+    background-color: #dd8d37;
+}
+
+.orange-btn:hover {
+    background-color: #dfb07e;
+    transition-duration: 0.5s;
+}
+.clear-btn {
+    width: 49.7%;
+}
+
+.zero-btn {
+    width: 74.8%;
+}
